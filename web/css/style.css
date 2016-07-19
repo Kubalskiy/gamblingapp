@@ -98,15 +98,15 @@ label[for="fixedbet"] {
     height: 0;
     padding-bottom: 100%;
     border-radius: 50%;
-    border: 10px solid #cfdcec;
+    border: 10px solid #ec6e28;
     overflow: hidden;
 
-    background: red;
+    background: darkred;
     box-shadow: 0 0 3px gray;
 }
 
 .round-button-circle:hover {
-    background: #30588e;
+    background: red;
 }
 
 .round-button button {
@@ -117,11 +117,12 @@ label[for="fixedbet"] {
     padding-bottom: 50%;
     line-height: 1em;
     margin-top: -0.5em;
-
     text-align: center;
-    color: #e2eaf3;
+    color: whitesmoke;
     font-family: Verdana;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
 }
