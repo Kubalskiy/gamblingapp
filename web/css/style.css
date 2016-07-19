@@ -89,7 +89,7 @@ label[for="fixedbet"] {
 
 @media (max-width: 320px) {
     .round-button {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -102,8 +102,8 @@ label[for="fixedbet"] {
     overflow: hidden;
     -webkit-box-shadow: 0px 0px 3px 1px #b92c28;
     background: #b92c28;
-    -moz-box-shadow:    0px 0px 3px 1px #b92c28;
-    box-shadow:         0px 0px 3px 1px #b92c28;
+    -moz-box-shadow: 0px 0px 3px 1px #b92c28;
+    box-shadow: 0px 0px 3px 1px #b92c28;
 }
 
 .round-button-circle:hover {
@@ -126,13 +126,4 @@ label[for="fixedbet"] {
     text-decoration: none;
     background: transparent none repeat scroll 0 0;
     border: medium none;
-}
-
-.btn-circle, .btn-circle-3d{
-    border-radius: 50% !important;
-}
-.btn-danger.btn-circle{
-    -webkit-box-shadow: 0px 0px 3px 1px #b92c28;
-    -moz-box-shadow:    0px 0px 3px 1px #b92c28;
-    box-shadow:         0px 0px 3px 1px #b92c28;
 }
