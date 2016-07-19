@@ -1,0 +1,70 @@
+/*Common Use Styles*/
+.mb {
+	margin-bottom: 15px;
+}
+/*End Common Use Styles*/
+
+#messages {
+	min-height:30px;
+}
+.betbtn {
+	width:130px;
+}
+.input-group-addon {
+	cursor: pointer;
+}
+.red {
+	color: red;
+	font-weight: bold;
+}
+.green {
+	color: green;
+	font-weight: bold;
+}
+.yellow {
+	color: darkmagenta;
+	font-weight: bold;
+}
+#play[disabled] {
+	cursor: wait;
+}
+
+/*Spinner Style Block*/
+.spinner {
+	display: inline-block;
+	opacity: 0;
+	width: 0;
+	-webkit-transition: opacity 0.25s, width 0.25s;
+	-moz-transition: opacity 0.25s, width 0.25s;
+	-o-transition: opacity 0.25s, width 0.25s;
+	transition: opacity 0.25s, width 0.25s;
+}
+.has-spinner.active {
+	cursor:progress;
+}
+.has-spinner.active .spinner {
+	opacity: 1;
+	width: auto;
+	/* This doesn't work, just fix for unkown width elements */
+}
+.has-spinner.btn-mini.active .spinner {
+	width: 10px;
+}
+.has-spinner.btn-small.active .spinner {
+	width: 13px;
+}
+.has-spinner.btn.active .spinner {
+	width: 16px;
+}
+.has-spinner.btn-large.active .spinner {
+	width: 19px;
+}
+/*End Spinner Style Block*/
+
+#yourDrop, #oppDrop {
+	display: inline-block;
+}
+
+label[for="fixedbet"] {
+	cursor: pointer;
+}
