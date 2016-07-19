@@ -55,6 +55,9 @@ $hasGame = $data['hasGame'];
         <?php if (!$data['credits']): ?>
         <?php if (\Yii::$app->user->isGuest): ?>
 
+
+        <button class="btn btn-lg btn-danger btn-circle"><i class="fa fa-trash-o"></i></button>
+
     <div class="round-button">
         <div class="round-button-circle">
             <button class="round-button" name="play" id="play"
