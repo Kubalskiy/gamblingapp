@@ -7,7 +7,7 @@
  */
 
 return [
-    'Credit' => 'Кредиты',
+    'Credit' => 'Неденьги',
     'Cash' => 'Валюта',
     'Login' => 'Войти',
     'Close' => 'Закрыть',
@@ -18,7 +18,7 @@ return [
     'Play game' => 'Кинуть ЛОХа',
     'Username' => 'Имя игрока',
     'Total Played' => 'Сыгранных партий',
-    'My credits' => 'Мои Кредиты:',
+    'My credits' => 'Мои Неденьги:',
     'Your Drop' => 'Твой рандом',
     'Opponent Drop' => 'Рандом ЛОХа',
     'Get your email' => 'Позолоти почту:',
@@ -31,7 +31,7 @@ return [
     'Please register to continue' => 'Зарегистрироваться и играть дальше',
     'Users online ({actUsers})' => 'ЛОХов онлайн ({actUsers})',
     'You can\'t start new game before finish exist' => 'Для нового замеса необходимо завершить прошлый!',
-    'You can\'t start new game. You need more credits!' => 'Для нового замеса необходимо больше кредитов!',
+    'You can\'t start new game. You need more credits!' => 'Чтобы продолжить пополни счет, это же неденьги!',
     'Your request is accepted and will be considered by the administrator of the club' => 'Ваша заявка принята и будет рассмотрена администратором клуба',
     'Your invite will be send to email' => 'Сейчас ЭВМ пришлет инвайт в закрытый клуб "Лохотрон с блэкджеком и шлюхами".',
 ];

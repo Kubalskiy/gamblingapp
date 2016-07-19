@@ -31,7 +31,7 @@ $hasGame = $data['hasGame'];
             <div class="col-sm-4">
                 <span id="credits"><?= @$data['credits'] ?></span>
                 <span class="pull-right">(<a class="has-spinner" id="creditRequest" href="javascript:creditRequest();">попросить
-                        кредитов<span class="spinner"><i class="fa fa-cog fa-spin"></i></span></a>)</span>
+                        неденег<span class="spinner"><i class="fa fa-cog fa-spin"></i></span></a>)</span>
             </div>
         </div>
         <div class="row"></div>

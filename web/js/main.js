@@ -2,7 +2,7 @@ $=jQuery;
 $(function(){
 	_.registerLocale('ru', {
 		' on ': ' на ',
-		' credit': ' кредит',
+		' credit': ' Неденьги',
 		'Play it': 'Кинуть ЛОХа',
 		'Result: ': 'В итоге: ',
 		'Find Opponent': 'Подбираем ЛОХа',
@@ -10,7 +10,7 @@ $(function(){
 		'You took draw!': 'Ха-ха, ничья! Может в следующий раз повезёт =).',
 		'All bets are off': 'Ставка сделана. Ставок больше нет.',
 		'Your drop:': 'Фортуна подарила тебе:',
-		'You got 100 creadits if register': 'Буду давать по 100 кредитов если зарегистрируешься!',
+		'You got 100 creadits if register': 'Буду давать по 100 Неденег если зарегистрируешься!',
 		'Opponent drop:': 'Твоему оппоненту выпало:',
 		'Please register to continue': 'Зарегистрироваться и играть дальше',
 		'We need more Gold! (C)': 'Нужно больше золота! (С)',
