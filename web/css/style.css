@@ -104,6 +104,7 @@ label[for="fixedbet"] {
     background: #b92c28;
     -moz-box-shadow: 0px 0px 3px 1px #b92c28;
     box-shadow: 0px 0px 3px 1px #b92c28;
+    margin-left: 1em;
 }
 
 .round-button-circle:hover {
