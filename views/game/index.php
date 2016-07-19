@@ -8,6 +8,9 @@ $hasGame = $data['hasGame'];
 <script>var isGuest = <?php echo \Yii::$app->user->isGuest ? '1' : '0'; ?></script>
 <div class="jumbotron">
     <h1><?= \Yii::t('app', 'Hello friend!') ?></h1>
+    <button class="btn btn-lg btn-default" name="playmoney" id="playmoney" data-toggle="modal"
+            data-target="#mailModal"><?= \Yii::t('app', 'I am lucky, Bet money') ?></button>
+    </p>
 
     <div class="row">
         <div id="messages" class="col-md-7"><?= $msg ?></div>
@@ -55,12 +58,9 @@ $hasGame = $data['hasGame'];
         <?php if (!$data['credits']): ?>
         <?php if (\Yii::$app->user->isGuest): ?>
 
-
-
-
-    <div class="round-button">
+    <div class="round-button ">
         <div class="round-button-circle">
-            <button class="round-button" name="play" id="play"
+            <button class="btn btn-lg btn-success input-lg" name="play" id="play"
                     data-state="needRegister"><?= \Yii::t('app', 'Please register to continue') ?></button>
         </div>
     </div>
@@ -68,7 +68,8 @@ $hasGame = $data['hasGame'];
         <button class="btn btn-lg btn-success" name="play" id="play" data-state="ready"
                 disabled="disabled"><?= \Yii::t('app', 'We need more Gold! (C)') ?></button>
     <?php
-    endif; ?>
+    endif;
+    ?>
     <?php elseif (!$hasGame): ?>
         <div class="round-button">
             <div class="round-button-circle">
@@ -81,9 +82,8 @@ $hasGame = $data['hasGame'];
         <button class="btn btn-lg btn-success" name="play" id="play" data-state="waitOpponent"
                 disabled="disabled"><?= \Yii::t('app', 'Wait for opponent') ?></button>
     <?php
-    endif; ?>
-    <button class="btn btn-lg btn-default" name="playmoney" id="playmoney" data-toggle="modal"
-            data-target="#mailModal"><?= \Yii::t('app', 'I am lucky, Bet money') ?></button>
+    endif;
+    ?>
     </p>
 </div>
 
